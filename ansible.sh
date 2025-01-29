@@ -7,6 +7,7 @@ pipx upgrade --include-injected ansible
 pipx inject ansible argcomplete
 pipx inject --include-apps ansible argcomplete
 pipx ensurepath
+sudo apt install ansible-core
 sudo apt update
 sudo apt install python3-pip
 pip3 --version
